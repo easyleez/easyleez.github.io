@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-	<link rel="stylesheet" type = "text/css" href = "/css/style.css" />
-	<title>Easyleez Inc.</title>
+	<meta charset="UTF-8">
+	<title>particles.js</title>  
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
+
 <body>
-<div id="wrapper">
-	<div id="content">
-		<h1>Coming Soon</h1>
+<script src="jquery.fittext.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	          $("body").fitText();
+	  });
+	</script>
+  <!-- particles.js container -->
+	<div id="particles-js"></div>
+
+	<div class="container-fluid center-container">
+		<div class="row text-center" id="content">
+			<div class="col-lg-12">
+				<span class="text-decorations">EasyLeez Inc. Coming Soon!</span>
+				<p class="footer-text"> Copyright © EasyLeez 2017. All Rights Reserved. </p>
+			</div>
+		</div> 
 	</div>
-</div>
-<footer id="footer">
-	<div id="footer-content" align="center">&copy; Easyleez Inc. All Rights Reserved</div>
-</footer>
+
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+	<script src="js/index.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
